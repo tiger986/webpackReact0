@@ -1,0 +1,211 @@
+.uploadResBox{
+    width: 100%;
+    min-height: 380px;
+    padding: 40px 0 80px;
+    background-color: #F5F5F5;
+    .uploadResUp{
+        width: 1200px;
+        background: #ffffff;
+        margin: 0 auto;
+        box-shadow: 3px 3px 5px #DDDDDD;
+        .uploadResUp_head{
+            width: 1140px;
+            height: 55px;
+            font-size: 18px;
+            color: rgb(51,51,51);
+            line-height: 55px;
+            margin: 0 auto;
+            border-bottom: 1px solid #E5E5E5;            
+        }
+        .uploadResUp_info{
+            width: 1105px;
+            height: 50px;
+            margin-left: 95px;
+            .uploadResUp_info_title{
+                width: 100px;
+                height: 50px;
+                font-size: 16px;
+                color: rgb(51,51,51);
+                line-height: 50px;
+                float: left;
+            }
+            .uploadResUp_info_resExpand{
+                width: 1000px;
+                height: 50px;
+                float: left;
+                line-height: 50px;
+                input{
+                    margin-right: 16px;
+                }
+                span{
+                    font-size: 14px;
+                    color: #666666;
+                    margin-right: 16px;
+                }
+            }
+            .uploadResUp_info_select{
+                float: left;
+                width: 120px;
+                height: 34px;
+                margin-top: 7px;
+                padding: 0 20px 0 10px;
+                font-family: 微软雅黑;
+                border: 1px solid #E5E5E5;
+                color: #999999;
+                -moz-border-radius: 4px;
+                -webkit-border-radius: 4px;
+                border-radius: 4px;
+                appearance: none;
+                -moz-appearance: none;
+                -webkit-appearance: none;
+                background: url("/images/resource/san2.png") no-repeat scroll transparent;
+                background-size: 11px 16px;
+                background-position: 102px center;
+                outline: none;
+                margin-right: 22px;
+            }
+            .chapter{
+                letter-spacing: 30px;
+            }
+            .chooseChapter_box{
+                width: 402px;
+                height: 34px;
+                float: left;
+                margin-top: 7px;
+                position: relative;
+                .chooseChapter {
+                    width: 372px;
+                    height: 32px;
+                    border: 1px solid #E5E5E5;
+                    -webkit-border-radius: 4px;
+                    -moz-border-radius: 4px;
+                    border-radius: 4px; 
+                    background: url("/images/resource/san2.png") no-repeat 386px center;
+                    background-size: 11px 16px;  
+                    padding: 0 20px 0 10px; 
+                    font-size: 14px;
+                    color: rgb(153, 153, 153);
+                    line-height: 32px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    cursor: pointer;
+                }
+                .chooseChapter_unit {
+                    width: 402px;
+                    height: auto;
+                    background-color: #F5F5F5;
+                    position: absolute;
+                    top: 35px;
+                    border: 1px solid #E5E5E5;
+                    -webkit-border-radius: 4px;
+                    -moz-border-radius: 4px;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    .chooseChapter_unit_left {
+                        width: 196px;
+                        background-color: #FFFFFF;
+                        float: left;
+                        -webkit-border-radius: 4px;
+                        -moz-border-radius: 4px;
+                        border-radius: 4px;
+                        .chooseChapter_unit_left_div{
+                            width: 196px;
+                            height: 28px;
+                            font-size: 14px;
+                            color: rgb(153, 153, 153);
+                            line-height: 28px;
+                            text-indent: 8px;
+                            &:first-child{
+                                margin-top: 2px;
+                            }
+                            &:last-child{
+                                margin-bottom: 2px;
+                            }
+                            span{
+                                float: left;
+                                width: 166px;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                            }                             
+                            b{
+                                color: #FFFFFF;
+                                font-weight: normal;
+                                font-size: 13px;
+                                float: right;
+                                margin-right: 5px;
+                            }
+                        }
+                        .chooseChapter_unit_left_div:hover{
+                            color: rgb(102, 102, 102);
+                        }
+                        .chooseChapter_unit_left_activ{
+                            background-color: #209EEA;
+                            color: #FFFFFF;
+                        }
+                        .chooseChapter_unit_p{
+                            width: 402px;
+                            height: 28px;
+                            font-size: 14px;
+                            color: #FFFFFF;
+                            line-height: 28px;
+                            background-color: gray;
+                            text-indent: 7px;
+                        }
+                    }
+                    .chooseChapter_unit_right{
+                        width: 196px;
+                        height: auto;
+                        background-color: #FFFFFF;
+                        float: left;
+                        margin-left: 10px;
+                        -webkit-border-radius: 4px;
+                        -moz-border-radius: 4px;
+                        border-radius: 4px;
+                        .chooseChapter_unit_right_section{
+                            width: 196px;
+                            height: 28px;
+                            font-size: 14px;
+                            line-height: 28px;
+                            color: rgb(153, 153, 153);
+                            text-indent: 8px;
+                            &:first-child{
+                                margin-top: 2px;
+                            }
+                            &:last-child{
+                                margin-bottom: 2px;
+                            }
+                            span{
+                                float: left;
+                                width: 166px;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                            }
+                            b{
+                                color: #FFFFFF;
+                                float: right;
+                                margin-right: 8px;
+                            }
+                        }
+                        .chooseChapter_unit_right_section:hover{
+                            color: rgb(102, 102, 102);
+                        }
+                        .timeImg{
+                            width: 26px;
+                            height: 26px;
+                            background-image: url("/images/resource/timg.gif");
+                            background-size: 300%;
+                            background-position: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .hide{
+        display: none;
+    }
+}
